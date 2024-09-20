@@ -1,9 +1,30 @@
-//estas duas primeiras linhas class e public static void sempre tem que ter nos programas que iremos fazer
-class A1escrevenatela{ //a palavra que segue class deve ser a mesma do nome do programa, no caso é Teste.java, logo, tem que ser Teste
+/* A1 - Um programa que escreve um poema. 
+Neste exercício, você deve escrever um programa que mostre algumas informações na tela. Ele deve apresentar este poema:
+O meu nome é Severino,
+não tenho outro de pia.
+Como há muitos Severinos,
+que é santo de romaria,
+deram então de me chamar
+Severino de Maria;
+como há muitos Severinos
+com mães chamadas Maria,
+fiquei sendo o da Maria
+do finado Zacarias.
+
+Cada linha do texto deve ser apresentada com uma instrução.  Ao final, seu programa deve mostrar uma linha em branco, e logo em seguida isto:
+Neste poema, a palavra Severino aparece XX vezes, e outras YY vezes apareceu Maria.
+... sendo que XX e YY são números inteiros que devem ser substituídos nessa frase final.
+*/
+
+// Solução A1:
+class A1escrevenatela { //a palavra que segue class deve ser a mesma do nome do programa
     public static void main(String[] args) {
-        System.out.printf("O meu nome é Severino,\nnão tenho outro de pia.\nComo há muitos Severinos,\nque é santo de romaria,\nderam então de me chamar\nSeverino de Maria;\ncomo há muitos Severinos\ncom mães chamadas Maria,\nfiquei sendo o da Maria\ndo finado Zacarias.\n");
-    
-        //println: mostra uma mensagem na tela, seguida de uma quebra de linha, sem o ln não quebra linha
+        // utilizando somente um print:
+        System.out.print("O meu nome é Severino,\nnão tenho outro de pia.\nComo há muitos Severinos,\nque é santo de romaria,\nderam então de me chamar\nSeverino de Maria;\ncomo há muitos Severinos\ncom mães chamadas Maria,\nfiquei sendo o da Maria\ndo finado Zacarias.\n");
+
+        /* versão aternativa utilizando um println para cada linha:
+        obs: println: mostra uma mensagem na tela, seguida de uma quebra de linha, sem o ln não quebra linha
+        */
         //System.out.println("O meu nome é Severino,");
         //System.out.println("não tenho outro de pia.");
         // System.out.println("Como há muitos Severinos,");
@@ -15,8 +36,8 @@ class A1escrevenatela{ //a palavra que segue class deve ser a mesma do nome do p
         // System.out.println("fiquei sendo o da Maria");
         // System.out.println("do finado Zacarias.");
         //\n pula uma linha
-        //printf: formata uma mensagem e então mostra-a na tela, é usada para combinar mais de uma informação e mostrar na tela
-        
+       
+        // printf: formata uma mensagem e então mostra-a na tela, é usada para combinar mais de uma informação e mostrar na tela
         System.out.printf("\nNeste poema, a palavra Severino aparece %d vezes, e outras %d vezes apareceu Maria.", 1, 3);
     }
 }
