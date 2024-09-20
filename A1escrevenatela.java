@@ -1,5 +1,5 @@
 //estas duas primeiras linhas class e public static void sempre tem que ter nos programas que iremos fazer
-class Teste{ //a palavra que segue class deve ser a mesma do nome do programa, no caso é Teste.java, logo, tem que ser Teste
+class A1escrevenatela{ //a palavra que segue class deve ser a mesma do nome do programa, no caso é Teste.java, logo, tem que ser Teste
     public static void main(String[] args) {
         System.out.printf("O meu nome é Severino,\nnão tenho outro de pia.\nComo há muitos Severinos,\nque é santo de romaria,\nderam então de me chamar\nSeverino de Maria;\ncomo há muitos Severinos\ncom mães chamadas Maria,\nfiquei sendo o da Maria\ndo finado Zacarias.\n");
     
