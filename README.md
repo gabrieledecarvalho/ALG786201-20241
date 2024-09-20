@@ -1,2 +1,2 @@
 # algoritimos
-Repositório contendo algoritmos criados na unidade curricular de ALG do IFSC-SJ, no semestre de 2024-1.
+Repositório contendo algoritmos em java criados na unidade curricular de Pensamento Computacional e Algorítimos do IFSC-SJ, no semestre de 2024-1.
