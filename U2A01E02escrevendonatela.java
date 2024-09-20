@@ -1,4 +1,4 @@
-/* A2 - Um programa que apresenta uma etiqueta de endereço:
+/* U2A01E02 - Um programa que apresenta uma etiqueta de endereço:
 Elabore um programa que escreve:
 Seu nome completo na primeira linha
 Seu endereço na segunda
