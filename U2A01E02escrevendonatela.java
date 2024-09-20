@@ -4,7 +4,7 @@ Seu nome completo na primeira linha
 Seu endereço na segunda
 ... e o CEP e telefone na terceira.
 */
-class A2escrevendonatela{
+class U2A01E02escrevendonatela {
     public static void main (String[] args){
         
         System.out.print("Nome completo: Gabriele de Carvalho\nEndereço: Rua das Areia, Tapera, Florianópolis\nCEP: 88049-300   Telefone: (XX) XXXXX-XXXX\n");
