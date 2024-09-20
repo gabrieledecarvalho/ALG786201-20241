@@ -1,4 +1,4 @@
-/* A1 - Um programa que escreve um poema. 
+/* U2A01E01 - Um programa que escreve um poema. 
 Neste exercício, você deve escrever um programa que mostre algumas informações na tela. Ele deve apresentar este poema:
 O meu nome é Severino,
 não tenho outro de pia.
@@ -17,7 +17,7 @@ Neste poema, a palavra Severino aparece XX vezes, e outras YY vezes apareceu Mar
 */
 
 // Solução A1:
-class A1escrevenatela { //a palavra que segue class deve ser a mesma do nome do programa
+class U2A01E01escrevenatela { //a palavra que segue class deve ser a mesma do nome do programa
     public static void main(String[] args) {
         // utilizando somente um print:
         System.out.print("O meu nome é Severino,\nnão tenho outro de pia.\nComo há muitos Severinos,\nque é santo de romaria,\nderam então de me chamar\nSeverino de Maria;\ncomo há muitos Severinos\ncom mães chamadas Maria,\nfiquei sendo o da Maria\ndo finado Zacarias.\n");
