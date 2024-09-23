@@ -16,7 +16,7 @@ Neste poema, a palavra Severino aparece XX vezes, e outras YY vezes apareceu Mar
 ... sendo que XX e YY são números inteiros que devem ser substituídos nessa frase final.
 */
 
-// Solução A1:
+// Solução E1:
 class U2A01E01_escrevePoema { //a palavra que segue class deve ser a mesma do nome do programa
     public static void main(String[] args) {
         // utilizando print e com \n para separar as linhas
