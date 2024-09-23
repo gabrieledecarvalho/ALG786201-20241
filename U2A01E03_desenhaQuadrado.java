@@ -6,6 +6,8 @@ X   X
 X   X
 XXXXX
 */
+
+// Solução E3:
 class U2A01E03_desenhaQuadrado{
     public static void main (String[] args){
         // mostrando na tela o desenho pedido no exercício:
