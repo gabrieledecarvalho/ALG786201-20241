@@ -4,6 +4,8 @@ Seu nome completo na primeira linha
 Seu endereço na segunda
 ... e o CEP e telefone na terceira.
 */
+
+// Solução A2:
 class U2A01E02_etiquetaEndereco {
     public static void main (String[] args){
         // mostando a etiqueta de endereço com print e com \n para separar as linhas:
