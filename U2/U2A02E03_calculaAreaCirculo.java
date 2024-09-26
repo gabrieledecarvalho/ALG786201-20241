@@ -15,7 +15,9 @@ public class U2A02E03_calculaAreaCirculo {
         double a, r;
         System.out.print("Digite o raio do círculo: ");
         r = leitor.nextDouble();
-        final double pi = 3.1416; //declarando uma constante
+
+        // declarando uma constante "pi" do tipo double, usando o 'final'
+        final double pi = 3.1416;
         a = pi*r*r;
         System.out.printf("A área do círculo é: %.2f.", a);
     }
