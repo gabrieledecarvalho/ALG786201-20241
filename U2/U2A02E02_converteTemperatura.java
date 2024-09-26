@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class U2A02E02_converteTemperatura {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
-        //definindo variávels do tipo double, tf: temperatura em farenheit e tc: temperatura em celcius
+        //definindo variávels do tipo double, tf: temperatura em fahrenheit e tc: temperatura em celcius
         double tf, tc;
         
         System.out.print("Escreva a temperatura em Celcius: ");
