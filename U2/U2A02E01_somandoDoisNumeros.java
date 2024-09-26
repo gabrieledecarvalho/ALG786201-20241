@@ -9,7 +9,7 @@
 // neste exercícios iremos utilizar um scanner, precisamos escrever a seguinte linha:
 import java.util.Scanner;
 
-public class U2A02E01_somandoDoisNumeros {
+public class U2A02E01_somandoDoisNumeros { // public class: criando uma classe pública, ela pode ser acessada em diversas partes do código; o nome da classe é "U2A02E01..."
     public static void main(String[] args) {
         // criando o "leitor", um scanner:
         Scanner leitor = new Scanner(System.in);
