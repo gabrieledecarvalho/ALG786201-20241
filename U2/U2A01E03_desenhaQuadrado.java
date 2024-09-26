@@ -1,13 +1,13 @@
-/* U2A01E01 - Um programa que desenha um quadrado
-Escreva um programa que mostre a seguinte figura no alto da tela:
-XXXXX
-X   X
-X   X
-X   X
-XXXXX
+/*   U2A01E01 - Um programa que desenha um quadrado
+    Escreva um programa que mostre a seguinte figura no alto da tela:
+    XXXXX
+    X   X
+    X   X
+    X   X
+    XXXXX
 */
 
-// Solução E3:
+// Solução U2A01E3:
 class U2A01E03_desenhaQuadrado{
     public static void main (String[] args){
         // mostrando na tela o desenho pedido no exercício:
