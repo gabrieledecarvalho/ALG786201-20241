@@ -22,7 +22,7 @@ public class U2A02E02_converteTemperatura {
         
         // ao invés de fazer a conta e mostrar dentro do printf, guarda-se o resultado dentro de uma variável e a mostra depois
         tf = 32 + (tc*1.8);
-
-        System.out.printf("A temperatura em Farenheit: %.2f \n",tf);
+        
+        System.out.printf("A temperatura em Farenheit: %.2f \n",tf); // o %.2f irá apresentar um número formatado com 2 casas após o "."
     }
 }
