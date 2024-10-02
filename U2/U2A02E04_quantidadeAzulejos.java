@@ -28,7 +28,7 @@
 //  Solução U2A02E04:
 import java.util.Scanner;
 
-class U2A02E04_quantidadeAzulejos {
+public class U2A02E04_quantidadeAzulejos {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int lado_azulejo;
