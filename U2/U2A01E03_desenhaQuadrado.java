@@ -8,7 +8,7 @@
 */
 
 // Solução U2A01E3:
-class U2A01E03_desenhaQuadrado{
+class U2A01E03_desenhaQuadrado {
     public static void main (String[] args){
         // mostrando na tela o desenho pedido no exercício:
         System.out.println("XXXX");
