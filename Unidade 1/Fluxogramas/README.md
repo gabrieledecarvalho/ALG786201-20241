@@ -1,6 +1,6 @@
 # Exercícios: Algoritmos, Fluxogramas
 1. Um dos primeiros problemas apresentados, lá na aula sobre decomposição, foi a escrita de uma redação. Este primeiro exercício parece ser bem direto, então crie seu primeiro fluxograma para expressar esse algoritmo. Você pode então inserir a imagem do seu fluxograma na resposta desta questão (preferível), ou publicar o link para acesso ao fluxograma.
-2. O próximo problema trata de trocar o pneu de um carro. Imagine que um pneu de seu carro furou, e você precisa substitui-lo pelo estepe. Qual seria o algoritmo para resolver esse problema ?
+2. O próximo problema trata de trocar o pneu de um carro. Imagine que um pneu de seu carro furou, e você precisa substitui-lo pelo estepe. Qual seria o algoritmo para resolver esse problema?
 3. Um pentágono é uma figura geométrica (um poliedro) com cinco lados de mesmo comprimento. Crie um algoritmo para desenhar um pentágono, com comprimento de lado escolhido pelo usuário de seu algoritmo.
 4. A previsão do tempo na costa brasileira pode ser feita de forma aproximada usando-se um barômetro e um termômetro. Uma estimativa com boa chance de acerto se baseia na tabela abaixo:
 
