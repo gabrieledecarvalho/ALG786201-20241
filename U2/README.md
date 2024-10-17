@@ -20,3 +20,14 @@ Como ler o nome dos arquivos: U2A01E01_escrevePoema.java = Unidade 2 Aula 01 Exe
     x = 0 
     z = ++x // x = 1 e z = 1, valor atribuido a z é o valor depois do incremento
     ```
+
+<!--
+Bibliografia básica:
+1. SOUZA, M. A. F. D.; GOMES, M. M.; SOARES, M. V.; CONCILIO, R. Algoritmos e lógica de programação: um texto introdutório para a engenharia. São Paulo: Cengage Learning Brasil, 2019. E-book (274 p.). 9788522128150. Disponível em: https://app.minhabiblioteca.com.br/#/books/9788522128150/
+2. SANTOS, M. da S. dos. et al. Pensamento computacional. Porto Alegre: SAGAH, 2021. Ebook (270 p.). ISBN 9786556901121. Disponível em: https://app.minhabiblioteca.com.br/#/books/9786556901121/.
+Bibliografia complementar:
+1. SCHILDT, H. Java para iniciantes: crie, compile e execute programas Java rapidamente. 6.ed. Porto Alegre: Bookman, 2015. E-book (668 p.). ISBN 9788582603376. Disponível em: https://app.minhabiblioteca.com.br/#/books/9788582603376/. Acesso em: 19 out. 2022.
+2. FURGERI, S. Java 8 - ensino didático: desenvolvimento e Implementação de aplicações. São Paulo: Érica, 2015. E-book (321 p.). ISBN 9788536519340. Disponível em: https://app.minhabiblioteca.com.br/#/books/9788536519340/. Acesso em: 19 out. 2022.
+3. MANZANO, J. A. N. G.; OLIVEIRA, J. F. D. Algoritmos: lógica para desenvolvimento de programação de computadores. 29. ed. São Paulo: Érica, 2019. E-book (369 p.). ISBN 
+9788536531472. Disponível em: https://app.minhabiblioteca.com.br/#/books/9788536531472/. Acesso em: 19 out. 2022
+-->
