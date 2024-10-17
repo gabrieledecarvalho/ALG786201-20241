@@ -17,4 +17,5 @@
 | baixando | baixando | chuvas abundantes e ventosd e sul a sudoeste fortes |
 
 Crie um algoritmo para informar a previsão de tempo a partir dos valores medidos de um termômetro e de um barômetro. Esses valores devem ser fornecidos pelo usuário de seu algoritmo.
+
 5. O Youtube possibilita que seus usuários criem playlists de videos. Porém isso envolve um procedimento que inicia com a entrada na conta do Youtube, até a publicação da playlist. Escreva um algoritmo para criar uma dessas playlists.
