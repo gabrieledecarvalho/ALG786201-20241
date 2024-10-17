@@ -14,7 +14,9 @@ Como ler o nome dos arquivos: U2A01E01_escrevePoema.java = Unidade 2 Aula 01 Exe
   * Precedência de operações: parênteses > divisão, multiplicação módulo/resto de divisão > somas/subtrações
   * Resultados das expressões podem ser armazenados em variáveis (atribuição): = | += | -= | *= | /= | %=
   * Incremento e decremento: ++ e --
-    * int x = 0, y, z;
-    * y = x++ // x = 1 e y = 0, valor atribuido a y é o valor antes do incremento
-    * x = 0 
-    * z = ++x // x = 1 e z = 1, valor atribuido a z é o valor depois do incremento
+    ```
+    int x = 0, y, z;
+    y = x++ // x = 1 e y = 0, valor atribuido a y é o valor antes do incremento
+    x = 0 
+    z = ++x // x = 1 e z = 1, valor atribuido a z é o valor depois do incremento
+    ```
