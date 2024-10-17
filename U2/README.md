@@ -12,7 +12,7 @@ Como ler o nome dos arquivos: U2A01E01_escrevePoema.java = Unidade 2 Aula 01 Exe
 * Aula 2: Expressões aritméticas
   * Soma: + | subtração: - | multiplicação: * | divisão: / | módulo (resto de divisão): %
   * Precedência de operações: parênteses > divisão, multiplicação módulo/resto de divisão > somas/subtrações
-  * Resultados das expressões podem ser armazenados em variáveis (atribuição): = | += | -= | *= | /= | %=
+  * Resultados das expressões podem ser armazenados em variáveis (atribuição): = , += , -= , *= , /= , %=
   * Incremento e decremento: ++ e --
     ```
     int x = 0, y, z;
