@@ -1,16 +1,16 @@
 # Unidade 1
 
 * Pilares do Pensamento Computacional
- * Decomposição
- * Reconhecimento de padrões
- * Abstração
- * Algoritmos
+  * Decomposição
+  * Reconhecimento de padrões
+  * Abstração
+  * Algoritmos
 * História do Computador
- * Arquitetura/máquina de Von Neumann
- * Nomes importantes da história do computador
+  * Arquitetura/máquina de Von Neumann
+  * Nomes importantes da história do computador
 * Pseudocódigos
 
- * Links interessantes:
+* Links interessantes:
 
 [Artigo Sobre Computational Thinking de Jeannette Wing (2006)](https://www.cs.cmu.edu/~./15110-s13/Wing06-ct.pdf)
 
