@@ -10,7 +10,7 @@
   * Nomes importantes da história do computador
 * Pseudocódigos
 
-* Links interessantes:
+Links interessantes:
 
 [Artigo Sobre Computational Thinking de Jeannette Wing (2006)](https://www.cs.cmu.edu/~./15110-s13/Wing06-ct.pdf)
 
