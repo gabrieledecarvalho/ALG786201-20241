@@ -1,0 +1,15 @@
+entrada: n1, n2
+
+saída: multiplicação de n1 e n2
+
+soma <- 0, n <- 0
+
+enquanto n < n2 faça
+
+soma <- soma + n2
+
+n <- n+1
+
+multiplicação <- soma
+
+saída: multiplicação

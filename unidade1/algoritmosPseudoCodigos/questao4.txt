@@ -1,0 +1,15 @@
+entrada: lista de números
+
+saída: segundo menor valor
+
+lista0: é o primeiro elemento da lista
+
+min <- lista0, n <- 1, min2 <- 0
+
+enquanto n < (comprimento da lista -1) faça
+
+     se listan < min faça
+
+          min2 <- min e min <- listan
+
+saída: min2

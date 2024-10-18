@@ -1,0 +1,3 @@
+# Exercícios: Algoritmos de Busca - Fluxograma
+5. Imagine que a pessoa que quer o shampoo mais barato pode não gostar da marca desse shampoo. Ela então resolveu procurar o segundo shampoo mais barato. Crie um fluxograma do algoritmo para encontrar o segundo menor valor de uma lista, o qual pode ser usado para resolver esse problema.
+6. Este último exercício de certa forma é um desafio. Em um jogo de adivinhação, uma pessoa pensa em um número de 1 a 100, e outra deve descobri-lo por meio de perguntas. Que algoritmo a pessoa que faz as perguntas deve seguir para descobrir o número com a menor quantidade de perguntas possível ? Pense nesse algoritmo, e então desenhe um fluxograma para expressá-lo. Dica: é possível descobrir o número em, no máximo, 7 tentativas !

@@ -1,0 +1,15 @@
+entrada: renda, numerodemeses
+
+saída: rentabilidade
+
+n <- 1, rentabilidade <- 0
+
+rentabilidade <- renda + renda*0,008
+
+enquanto n < numerodemeses faça
+
+rentabilidade <- rentabilidade + rentabilidade*0,008
+
+n <- n+1
+
+saída: rentabilidade - renda

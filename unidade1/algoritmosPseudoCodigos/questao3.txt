@@ -1,0 +1,45 @@
+entrada: barometro, termometro
+
+saída: tempo provavel
+
+se barometro = subindo
+
+     se termometro = subindo
+
+          saída tempo bom, ventos quentes e secos
+
+     se termometro = estacionario
+
+          saída tempo bom, ventos de leste frescos        
+
+     se termometro = baixando
+
+          saída tempo bom, ventos de sul a sudeste
+
+se barometro = estacionario
+
+     se termometro = subindo
+
+          saída tempo mudando para bom, ventos de leste
+
+     se termometro = estacionario
+
+          saída tempo incerto, ventos variáveis
+
+     se termometro = baixando
+
+          saída chuva provavel, ventos de sul a sudeste
+
+se barometro = baixando
+
+     se termometro = subindo
+
+          saída tempo instavel, aproximação de frente
+
+     se termometro = estacionario
+
+          saída frente quente com chuvas provaveis
+
+     se termometro = baixando
+
+          saída chuvas abundantes e ventos de sul a sudoeste fortes
