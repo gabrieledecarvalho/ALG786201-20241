@@ -9,7 +9,7 @@ Como ler o nome dos arquivos: U2A01E01_escrevePoema.java = Unidade 2 Aula 01 Exe
 * Aula 2: Lendo valores do teclado + tipos, variáveis e constantes
   * [Java User Input (Scanner Class) - W3Schools](https://www.w3schools.com/java/java_user_input.asp), [Como funciona a classe Scanner do Java? - devmedia](https://www.devmedia.com.br/como-funciona-a-classe-scanner-do-java/28448)
   * [Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html); declaração de variável: \<Tipo> \<nomeVariavel> \<atribuicaoDeValorOpcional>; declaração de constantes: final \<Tipo> \<nomeVariavel> \<atribuicaoDeValor>
-* Aula 2: Expressões aritméticas
+* Aula 3: Expressões aritméticas
   * Soma: + | subtração: - | multiplicação: * | divisão: / | módulo (resto de divisão): %
   * Precedência de operações: parênteses > divisão, multiplicação módulo/resto de divisão > somas/subtrações
   * Resultados das expressões podem ser armazenados em variáveis (atribuição): = , += , -= , *= , /= , %=
@@ -20,7 +20,8 @@ Como ler o nome dos arquivos: U2A01E01_escrevePoema.java = Unidade 2 Aula 01 Exe
     x = 0 
     z = ++x // x = 1 e z = 1, valor atribuido a z é o valor depois do incremento
     ```
-
+* Aula 4: Teste de mesa e debug/depuração
+  * [vídeo sobre debug no IntelliJ IDEA](https://www.youtube.com/watch?v=qz6gbT0kdzg&ab_channel=MarceloSobral)
 <!--
 Bibliografia básica:
 1. SOUZA, M. A. F. D.; GOMES, M. M.; SOARES, M. V.; CONCILIO, R. Algoritmos e lógica de programação: um texto introdutório para a engenharia. São Paulo: Cengage Learning Brasil, 2019. E-book (274 p.). 9788522128150. Disponível em: https://app.minhabiblioteca.com.br/#/books/9788522128150/

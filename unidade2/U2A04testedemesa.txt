@@ -1,0 +1,21 @@
+Teste de mesa do exercício U2A03E02_mostraHorario.java
+---------------------------------------------------------------
+Teste de mesa a partir da declaração da variável:
+
+| LINHA/PASSO  | VARIÁVEL "segundo" |          SAÍDA          |
+| ------------ | ------------------ | ----------------------- |
+|      1       |          -	        |             -           |
+|      2       |          -	        | "Horário em segundos: " |
+|      3       |         3661       |             -           |
+|      4       |         3661       | 01:                     | 
+|      5       |         3661       | 01:01                   |
+|      6       |         3661       | 01:01:01                |
+ 
+---------------------------------------------------------------
+Código a partir da declaração da variável:
+1 int segundo;
+2 System.out.print("Horário em segundos: ");
+3 segundo = input.nextInt();
+4 System.out.printf("Horário: %02d:", (int) segundo/3600 );
+5 System.out.printf("%02d:", (int) (segundo%3600)/60);
+6 System.out.printf("%02d", (segundo%3600)%60);
