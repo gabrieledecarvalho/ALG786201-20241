@@ -22,7 +22,7 @@ Como ler o nome dos arquivos: U2A01E01_escrevePoema.java = Unidade 2 Aula 01 Exe
     ```
 * Aula 4: Teste de mesa e debug/depuração
   * [vídeo sobre debug no IntelliJ IDEA](https://www.youtube.com/watch?v=qz6gbT0kdzg&ab_channel=MarceloSobral)
-* Aula 5: estruturas de decisão - parte 1
+* Aula 5: Estruturas de decisão - parte 1, resultados booleanos (True/False)
   * estrutura se-então-senão
     ```
     Se condição então
@@ -49,7 +49,16 @@ Como ler o nome dos arquivos: U2A01E01_escrevePoema.java = Unidade 2 Aula 01 Exe
     | < | x < 0 | Compara se um valor é menor que outro |
     |< = | x <= 0| Compara se um valor é menor ou igual que outro |
 
+* Aula 6: Estruturas de decisão - parte 2, operadores lógicos, tabela-verdade dos operadores lógicos (UC de lógica), precedência de operadores lógicos
+  * Operadores lógicos:
 
+    | Operador | Exemplo | Descrição |
+    | --- | --- | --- |
+    | && | x > 0 && x <5 | E lógico: resultado é verdadeiro se ambos operandos forem verdadeiros |   
+    | || | x < 0 || x > 5 | OU lógico: resultado é verdadeiro se ao menos um dos operandos for verdadeiro |
+    | ! | !(x < 0) | NÃO lógico: resultado é a negação (inverso) do operando |
+   
+  * Precedência de operadores lógicos: 1. operador NÃO (!), 2. operador E (&&), 3. operador OU; caso seja necessário mudar esta ordem, deve-se usar parênteses ()
 <!--
 Bibliografia básica:
 1. SOUZA, M. A. F. D.; GOMES, M. M.; SOARES, M. V.; CONCILIO, R. Algoritmos e lógica de programação: um texto introdutório para a engenharia. São Paulo: Cengage Learning Brasil, 2019. E-book (274 p.). 9788522128150. Disponível em: https://app.minhabiblioteca.com.br/#/books/9788522128150/

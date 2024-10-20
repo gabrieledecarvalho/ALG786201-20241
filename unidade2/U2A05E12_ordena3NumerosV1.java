@@ -1,4 +1,4 @@
-/*  U2A05E12 - Ordenando três números
+/*  U2A05E12 - Ordenando três números Versão 1
     Escreva um programa que lê três números do teclado, e os apresenta ordenados na tela.
     Seu programa deve mostrar alguma mensagem pedindo os três números, 
     os quais devem ser digitados na mesma linha, separados por espaços. 
@@ -9,7 +9,7 @@
 //  Solução U2A05E12:
 import java.util.Scanner;
 
-public class U2A05E12_ordena3Numeros {
+public class U2A05E12_ordena3NumerosV1 {
     public static void main (String[] args){
         Scanner inp = new Scanner(System.in);
         

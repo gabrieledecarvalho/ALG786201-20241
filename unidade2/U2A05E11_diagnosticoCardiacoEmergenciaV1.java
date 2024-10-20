@@ -1,4 +1,4 @@
-/*  U2A05E11 - Fazendo um diagnóstico cardíaco de emergência
+/*  U2A05E11 - Fazendo um diagnóstico cardíaco de emergência Versão 1
     Em um hospital para pacientes cardíacos, dados vitais dos pacientes da emergência foram coletados durante alguns anos.
     Essa grande coleção de informações sobre pacientes, e também sobre seus destinos após a internação, foi um dia analisada. 
     O objetivo foi identificar que informações vitais eram cruciais para identificar a gravidade do caso de cada paciente. 
@@ -49,6 +49,8 @@ public class U2A05E11_diagnosticoCardiacoEmergencia {
         System.out.print("Digite a idade do paciente (ano e meses completos separados por espaço): ");
         ano = inp.nextInt();
         mes = inp.nextInt();
+
+        //  calculando a idade em anos, com decimal
         idade = ano + mes/12;
         
         System.out.print("Digite a maior pressão sanguínea sistólica registrada nas últimas 24h: ");
