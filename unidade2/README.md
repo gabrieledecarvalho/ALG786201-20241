@@ -55,7 +55,7 @@ Como ler o nome dos arquivos: U2A01E01_escrevePoema.java = Unidade 2 Aula 01 Exe
     | Operador | Exemplo | Descrição |
     | --- | --- | --- |
     | && | x > 0 && x <5 | E lógico: resultado é verdadeiro se ambos operandos forem verdadeiros |   
-    | || | x < 0 || x > 5 | OU lógico: resultado é verdadeiro se ao menos um dos operandos for verdadeiro |
+    | \|| | x < 0 \|| x > 5 | OU lógico: resultado é verdadeiro se ao menos um dos operandos for verdadeiro |
     | ! | !(x < 0) | NÃO lógico: resultado é a negação (inverso) do operando |
    
   * Precedência de operadores lógicos: 1. operador NÃO (!), 2. operador E (&&), 3. operador OU; caso seja necessário mudar esta ordem, deve-se usar parênteses ()
