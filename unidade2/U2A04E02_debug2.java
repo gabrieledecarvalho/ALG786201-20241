@@ -29,6 +29,6 @@ public class U2A04E02_debug2 {
         min = Math.min(min,n4);
         min = Math.min(min,n5);
 
-        System.out.printf("A média é %.2f",(n1 + n2 + n3 + n4 + n5 - min)/4);        
+        System.out.printf("A média é %.2f",(n1 + n2 + n3 + n4 + n5 - min)/4);
     }
 }

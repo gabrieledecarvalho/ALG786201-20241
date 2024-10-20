@@ -15,7 +15,7 @@
  // Solução U2A03E02:
  import java.util.Scanner;
 
-public class U2A03E03_raizesEq2Grau {
+public class U2A03E03_raizesEquacao2GrauV1 {
     public static void main(String[] args){
        Scanner input = new Scanner(System.in);
       

@@ -22,6 +22,33 @@ Como ler o nome dos arquivos: U2A01E01_escrevePoema.java = Unidade 2 Aula 01 Exe
     ```
 * Aula 4: Teste de mesa e debug/depuração
   * [vídeo sobre debug no IntelliJ IDEA](https://www.youtube.com/watch?v=qz6gbT0kdzg&ab_channel=MarceloSobral)
+* Aula 5: estruturas de decisão - parte 1
+  * estrutura se-então-senão
+    ```
+    Se condição então
+      Faz algumas coisas
+    Senão
+      Faz outras coisas
+    ```
+  * Se-então-senão em Java
+    ```
+    if (condição) { // Se condição então
+    // uma ou mais instruções
+    } else {        // Senão 
+    // uma ou mais instruções
+    }
+    ```
+    * Operadores Relacionais:
+    | Operador | Exemplo | Descrição |
+    | --- | --- | --- |
+    | == | x == 0 | Compara se dois valores são iguais |   
+    | != | x != 0 | Compara se dois valores são diferentes |
+    | > | x > 0 | Compara se um valor é maior que outro |
+    | >= | x >= 0| Compara se um valor é maior ou igual que outro |
+    | < | x < 0 | Compara se um valor é menor que outro |
+    |< = | x <= 0| Compara se um valor é menor ou igual que outro |
+
+
 <!--
 Bibliografia básica:
 1. SOUZA, M. A. F. D.; GOMES, M. M.; SOARES, M. V.; CONCILIO, R. Algoritmos e lógica de programação: um texto introdutório para a engenharia. São Paulo: Cengage Learning Brasil, 2019. E-book (274 p.). 9788522128150. Disponível em: https://app.minhabiblioteca.com.br/#/books/9788522128150/
