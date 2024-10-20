@@ -39,6 +39,7 @@ Como ler o nome dos arquivos: U2A01E01_escrevePoema.java = Unidade 2 Aula 01 Exe
     }
     ```
     * Operadores Relacionais:
+    
     | Operador | Exemplo | Descrição |
     | --- | --- | --- |
     | == | x == 0 | Compara se dois valores são iguais |   
