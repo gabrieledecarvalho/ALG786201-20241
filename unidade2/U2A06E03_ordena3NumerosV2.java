@@ -9,7 +9,7 @@
 //  Solução U2A06E03:
 import java.util.Scanner;
 
-public class Teste {
+public class U2A06E03_ordena3NumerosV2 {
     public static void main (String[] args){
     Scanner inp = new Scanner(System.in);
         

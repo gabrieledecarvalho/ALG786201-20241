@@ -24,7 +24,7 @@
 //  Solução U2A06E06:
 import java.util.Scanner;
 
-public class U2A06E06_verificaSePodeAposentar {
+public class REVER_U2A06E06_verificaSePodeAposentar {
     public static void main (String[] args){
         Scanner inp = new Scanner(System.in);
         

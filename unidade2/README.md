@@ -59,6 +59,8 @@ Como ler o nome dos arquivos: U2A01E01_escrevePoema.java = Unidade 2 Aula 01 Exe
     | ! | !(x < 0) | NÃO lógico: resultado é a negação (inverso) do operando |
    
   * Precedência de operadores lógicos: 1. operador NÃO (!), 2. operador E (&&), 3. operador OU; caso seja necessário mudar esta ordem, deve-se usar parênteses ()
+
+* Aula 7: estruturas de decisão - parte 3, estruturas switch ... case, tipos de dados usado no case, uso do break, [switch case em java - betrybe](https://blog.betrybe.com/java/switch-case-java/), [java switch - w3schools](https://www.w3schools.com/java/java_switch.asp)
 <!--
 Bibliografia básica:
 1. SOUZA, M. A. F. D.; GOMES, M. M.; SOARES, M. V.; CONCILIO, R. Algoritmos e lógica de programação: um texto introdutório para a engenharia. São Paulo: Cengage Learning Brasil, 2019. E-book (274 p.). 9788522128150. Disponível em: https://app.minhabiblioteca.com.br/#/books/9788522128150/

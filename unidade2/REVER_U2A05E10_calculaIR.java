@@ -22,7 +22,7 @@
 //  Solução U2A05E10:
 import java.util.Scanner;
 
-public class Teste {
+public class REVER_U2A05E10_calculaIR {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         

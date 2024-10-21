@@ -20,7 +20,7 @@
 //  Solução U2A05Teste02:
 import java.util.Scanner;
     
-public class Teste {
+public class U2A05Teste02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int segundo, dia, hora, minuto;

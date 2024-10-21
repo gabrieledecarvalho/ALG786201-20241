@@ -28,13 +28,13 @@ public class U2A02E09_consumoVeiculo {
         Scanner input = new Scanner(System.in);
         
         //  definindo as variáveis tempo, velocidade, distância e litros em ponto flutuante (double/float)
-        double t, v, d, l;
+        double v, d, l;
         //  definindo as variáveis minutos e horas como inteiros:
-        int m, h;
+        int t, m, h;
         
         //  imprimindo na tela a informação desejada e pedindo o valor do teclado logo em seguida:
         System.out.print("Tempo gasto na viagem (min): ");
-        t = input.nextDouble();
+        t = input.nextInt();
         
         System.out.print("Velocidade média do automóvel (km/h): ");
         v = input.nextDouble();

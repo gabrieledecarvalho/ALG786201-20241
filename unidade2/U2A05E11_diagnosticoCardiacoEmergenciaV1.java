@@ -32,7 +32,7 @@
 //  Solução U2A05E11:
 import java.util.Scanner;
 
-public class U2A05E11_diagnosticoCardiacoEmergencia {
+public class U2A05E11_diagnosticoCardiacoEmergenciaV1 {
     public static void main (String[] args){
         
         //  criando inp, Scanner:

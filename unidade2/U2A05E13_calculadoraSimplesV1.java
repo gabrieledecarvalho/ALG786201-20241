@@ -18,7 +18,7 @@
 //  Solução U2A05E13:
 import java.util.Scanner;
 
-public class U2A05E13_calculadoraSimples {
+public class U2A05E13_calculadoraSimplesV1 {
     public static void main(String[] args){
         Scanner inp = new Scanner(System.in);
         String operador;

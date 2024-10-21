@@ -44,7 +44,7 @@ public class U2A05E14_IRImovel {
         Scanner inp = new Scanner(System.in);
         double valor_imovel, valor_venda_imovel, corretagem_imovel, ganho, ali;
         String comprar_imovel;
-        double ir; //   imposto de renda
+        double ir=0; //   imposto de renda
         
         System.out.print("Digite o valor de aquisição do imóvel: R$ ");
         valor_imovel = inp.nextDouble();
