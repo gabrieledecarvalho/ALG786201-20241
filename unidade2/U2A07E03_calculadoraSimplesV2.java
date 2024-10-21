@@ -1,4 +1,4 @@
-/*
+/*  U2A07E03 - Calculadora Simples Versão 2
     Escreva um programa um programa com duas variáveis numéricas e um caractere que 
     representará uma das operações aritméticas básica (+, –, *, /). 
     O programa deve realizar a operação indicada pelo caractere sobre as variáveis 

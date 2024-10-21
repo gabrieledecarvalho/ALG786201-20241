@@ -11,7 +11,7 @@
 //  Solução U2A07E01:
 import java.util.Scanner;
 
-public class U2A07E01_pesoIdeal {
+public class U2A07E01_pesoIdealV1 {
     public static void main(String[] args){
         Scanner inp = new Scanner(System.in);
         float peso, h;

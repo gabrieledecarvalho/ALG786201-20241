@@ -1,4 +1,4 @@
-/*
+/*  U2A07E05 - Classificando produtos de um mercado
     Um supermercado possui uma classificação dos produtos. 
     Para cada código numérico existe uma classificação, conforme a tabela a seguir:
 
