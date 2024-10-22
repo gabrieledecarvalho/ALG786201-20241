@@ -61,6 +61,17 @@ Como ler o nome dos arquivos: U2A01E01_escrevePoema.java = Unidade 2 Aula 01 Exe
   * Precedência de operadores lógicos: 1. operador NÃO (!), 2. operador E (&&), 3. operador OU; caso seja necessário mudar esta ordem, deve-se usar parênteses ()
 
 * Aula 7: estruturas de decisão - parte 3, estruturas switch ... case, tipos de dados usado no case, uso do break, [switch case em java - betrybe](https://blog.betrybe.com/java/switch-case-java/), [java switch - w3schools](https://www.w3schools.com/java/java_switch.asp)
+
+* Aula 8: String - parte 1: o tipo String é um objeto, não somente um tipo, armazena variável mas também é possível realizar um conjunto de operações advindas da classe (será estudado em POO); length(), equals(), concatenação, toLowerCase()/toUpperCase(), startsWith()/endsWith(), contains(), isEmpty(), indexOf(), substring().
+
+* Aula 9: String - parte 2: lastIndexOf(), replace(), strip() (estávamos utilizando o trim na época), compareTo().
+
+* Aula 10: Boas práticas de programação
+  * Identação adequada do código
+  * Documentar o código -> comentários, [Best practices for writing code comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/), [What Are Java Comments? Types, Examples, Best Practices](https://www.tutorialsfreak.com/java-tutorial/java-comments)
+  * nomes de variáveis legíveis, claros e concisos, algumas convenções: [Camel Case](https://pt.wikipedia.org/wiki/CamelCase), [Snake Case](https://en.wikipedia.org/wiki/Snake_case), [Naming convention (programming)](https://en.wikipedia.org/wiki/Naming_convention_(programming))
+  * restringir variáveis a seus escopos: definir variáveis onde serão utilizadas, [Discussão no Fórum sobre](https://stackoverflow.com/questions/8803674/declaring-variables-inside-or-outside-of-a-loop)
+  
 <!--
 Bibliografia básica:
 1. SOUZA, M. A. F. D.; GOMES, M. M.; SOARES, M. V.; CONCILIO, R. Algoritmos e lógica de programação: um texto introdutório para a engenharia. São Paulo: Cengage Learning Brasil, 2019. E-book (274 p.). 9788522128150. Disponível em: https://app.minhabiblioteca.com.br/#/books/9788522128150/

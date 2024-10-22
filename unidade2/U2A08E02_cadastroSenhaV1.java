@@ -15,7 +15,7 @@
 import java.util.Scanner;
 
 //  declarando a classe "U2A08E02_(...)", sendo ela pública
-public class U2A08E02_senhaComprimentoMinimo {
+public class U2A08E02_cadastroSenhaV1 {
 
     //  public: acesso à classe; static: método estático, não precisa ser iniciada; void: não retorna nada; "main": nome do método; String[] args: parâmetros (como em funções, no caso aqui chamado de métodos)
     public static void main(String[] args){
