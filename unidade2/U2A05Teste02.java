@@ -1,4 +1,4 @@
-/*
+/*  U2A05Teste02: Mostra horário formatado
     Um computador de bordo de um veleiro possui um cronômetro que conta os segundos a partir do momento em que ele é zerado e iniciado. 
     Quando o marinheiro quer ver a duração atual da viagem, ele aperta um botão, e o computador de bordo converte o valor do cronômetro 
     para um formato legível como este:
