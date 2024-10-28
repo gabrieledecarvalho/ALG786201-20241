@@ -71,6 +71,10 @@ Como ler o nome dos arquivos: U2A01E01_escrevePoema.java = Unidade 2 Aula 01 Exe
   * Documentar o código -> comentários, [Best practices for writing code comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/), [What Are Java Comments? Types, Examples, Best Practices](https://www.tutorialsfreak.com/java-tutorial/java-comments)
   * nomes de variáveis legíveis, claros e concisos, algumas convenções: [Camel Case](https://pt.wikipedia.org/wiki/CamelCase), [Snake Case](https://en.wikipedia.org/wiki/Snake_case), [Naming convention (programming)](https://en.wikipedia.org/wiki/Naming_convention_(programming))
   * restringir variáveis a seus escopos: definir variáveis onde serão utilizadas, [Discussão no Fórum sobre](https://stackoverflow.com/questions/8803674/declaring-variables-inside-or-outside-of-a-loop)
+
+* Aula 11: Revisão
+
+Indicação de leitura: Programação para iniciantes, Aprenda lógica de programação com JAVA - Alexandre Afonso
   
 <!--
 Bibliografia básica:
