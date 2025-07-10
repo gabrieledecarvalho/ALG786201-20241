@@ -47,6 +47,7 @@ public class U2A10Teste06 {
 
         ano = data.substring(barra+1);
 
+        nano = Integer.valueOf(ano);
         ndia = Integer.valueOf(dia);
         nmes = Integer.valueOf(mes);
        
@@ -89,8 +90,8 @@ public class U2A10Teste06 {
                 break;
         }
         //  adicionei depois, verificar se o programa reage certo:
-        if ((ano%400 == 0 || ano%4 == 0 && ano%100 != 0) && nmes>2) {
-            ndia+=1;
+        if ((nano%400 == 0 || nano%4 == 0 && nano%100 != 0) && nmes>2) {
+            diaspassados += 1;
         }
         System.out.printf("%d", diaspassados);
     }

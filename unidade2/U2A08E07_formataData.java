@@ -10,7 +10,7 @@
 //  Solução U2A08E07:
 
 import java.util.Scanner;
-public class U2A08E08_formataData {
+public class U2A08E07_formataData {
     public static void main(String[] args){
         Scanner inp = new Scanner(System.in);
         

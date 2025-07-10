@@ -1,4 +1,4 @@
-//  rever este programa com o cálculo certo de como se calcula o IR
+
 
 /*  U2A05E10 - Calculando o imposto de renda
     O imposto de renda de pessoa física (IRPF), quando cobrado diretamente no salário de um trabalhador, 
@@ -22,37 +22,36 @@
 //  Solução U2A05E10:
 import java.util.Scanner;
 
-public class REVER_U2A05E10_calculaIR {
+public class U2A05E10_calculaIR {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         
         //  variáveis do tipo double
         //  sal: salávio; ir: imposto de renda; ali: aliquota; ded: dedução
-        double sal, ir, ali, ded;
+        double sal, ir = 0.0, ali, ded;
         
         //  mostrando na tela o que digitar e pedindo input do teclado com o inp (um Scanner)
         System.out.print("Digite o salário do trabalhador: R$ ");
         sal = inp.nextDouble();
-        
-        if(sal > 2826.65){
+
+        if(sal <= 2259.20) { //  até R$ 2.259,20
+            ir = 0.0; //  isento de IRPF
+        } else if(sal <= 2826.65){ //  de R$ 2.259,21 até R$ 2.826,65
             ali = 0.075;
             ded = 169.44;
-            ir = (sal*ali)-ded;
-            if(sal > 3751.05){
-                ali = 0.15;
-                ded = 391.44;
-                ir = ir + ((sal-2826.65)*ali)-ded;
-                if(sal > 4664.68){
-                    ali = 0.225;
-                    ded = 662.77;
-                    ir = ir + ((sal-3751.05)*ali)-ded;
-                    if(sal > 4664.68){ //qualquer número maior que 4664.68
-                        ali = 0.275;
-                        ded = 896;
-                        ir = ir + ((sal-4664.68)*ali)-ded;
-                    }
-                }
-            }
+            ir = (sal * ali) - ded;
+        } else if (sal <= 3751.05) {
+            ali = 0.15;
+            ded = 381.44;
+            ir = (sal * ali) - ded;
+        } else if(sal <= 4664.68) {
+            ali = 0.225;
+            ded = 662.77;
+            ir = (sal * ali) - ded;
+        } else { //qualquer número maior que 4664.68
+            ali = 0.275;
+            ded = 896;
+            ir = (sal * ali) - ded;
         }
         
         System.out.printf("IRPF: R$ %.2f", ir);    

@@ -40,25 +40,25 @@ public class U2A05E08_raizesEquacao2GrauV2 {
         c = inp.nextInt();
         
         //  cálculo da váriável delta, baseado nos coeficientes digitados; utilizando o método Math.pow
-        delta = Math.pow(b,2) - 4*a*c;
+        delta = Math.pow(b, 2) - 4 * a * c;
         
         //  teste 1: se delta for maior ou igual a zero
         if (delta >= 0){
-            
+
             //  teste 1 retorna True -> o primeiro x é calculado:
-            x = (-b + delta)/(2*a);
-            
+            x = (-b + Math.sqrt(delta))/(2.0 * a);
+
             //  teste 1.1, se delta for somente igual a zero
             if (delta == 0){
 
                 //  se teste 1.1 for True, nem é preciso calcular a segunda raíz, pois ela é a mesma -> mostra na tela x
                 System.out.printf("Raíz dupla: %.1f", x);
             
-            } else if { //  se o teste 1.1 for False, é preciso mostrar a variável x calculada primeiro, mas há outra diferente
+            } else { //  se o teste 1.1 for False, é preciso mostrar a variável x calculada primeiro, mas há outra diferente
                 System.out.printf("Raízes: %.1f, ",x);
 
                 //  calculando a segunda raíz, como já foi impresso a primeira, podemos substituir o valor na mesma variável (não é uma boa prática, ao meu ver, mas é bom demonstrar que podemos mudar o valor desse tipo de variável)
-                x = (-b - delta)/(2*a);
+                x = (-b - Math.sqrt(delta))/(2.0 * a);
 
                 //  imprimindo a segunda raíz
                 System.out.printf("%.1f",x);

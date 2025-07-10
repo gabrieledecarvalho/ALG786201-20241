@@ -20,7 +20,7 @@
 
 import java.util.Scanner;
 
-public class TesU2A06Teste03 {
+public class U2A06Teste03 {
     
     public static void main(String[] args){
         

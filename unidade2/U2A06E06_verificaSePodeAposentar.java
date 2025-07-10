@@ -24,12 +24,12 @@
 //  Solução U2A06E06:
 import java.util.Scanner;
 
-public class REVER_U2A06E06_verificaSePodeAposentar {
+public class U2A06E06_verificaSePodeAposentar {
     public static void main (String[] args){
         Scanner inp = new Scanner(System.in);
         
-        int idade;
-        float media_sal, t_contr, bonus = 0, beneficio; //duvida: tive que inicializar a variável com zero antes de usala na linha 33
+        int idade, t_contr;
+        float media_sal, bonus = 0, beneficio; //duvida: tive que inicializar a variável com zero antes de usala na linha 33
         String gen;
         
         System.out.print("Digite a idade [somente em anos]: ");
@@ -38,30 +38,30 @@ public class REVER_U2A06E06_verificaSePodeAposentar {
         System.out.print("Digite o gênero [feminino ou masculino]: ");
         gen = inp.next();
         
-        if(!gen.equals("feminino") || !gen.equals("masculino")){ //testador fem masc
+        if(!gen.equals("feminino") && !gen.equals("masculino")){ //testador fem masc
             System.out.print("Atualmente, é preciso escolher entre feminino e masculino para poder ter garantido o direito à aposentadoria.\nDigite o gênero [feminino ou masculino]: ");
             gen = inp.next();
         }
         
         System.out.print("Digite o tempo de contribuição: ");
-        t_contr = inp.nextFloat();
+        t_contr = inp.nextInt();
         
         System.out.print("Digite a média dos salários de contruibuição: R$ ");
         media_sal = inp.nextFloat();
-        
-        if(gen.equals("feminino")){
-            bonus = (t_contr - 15)*0.02f; //https://www.baeldung.com/java-lossy-conversion -> 0.02f
+
+        if(gen.equals("feminino") && t_contr > 15){
+            bonus = (t_contr - 15) * 0.02f; //https://www.baeldung.com/java-lossy-conversion -> 0.02f
             if (bonus < 0) {
-            bonus = 0;
+                bonus = 0;
             }
-        }else if(gen.equals("masculino")){
-            bonus = (t_contr - 20)*0.02f;
+        } else if(gen.equals("masculino") & t_contr > 20){
+            bonus = (t_contr - 20) * 0.02f;
             if (bonus < 0) {
             bonus = 0;
             }
         }
        
-        beneficio = media_sal*0.6f + bonus;
+        beneficio = media_sal * (0.6f + bonus);
         
         if (idade >= 65 && t_contr >= 15){
             System.out.printf("DEFERIDO\nValor do benefício: R$ %.2f", beneficio);
