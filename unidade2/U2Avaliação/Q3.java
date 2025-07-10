@@ -1,4 +1,4 @@
-/*
+package U2Avaliação;/*
     O banco XYZ vai fornecer empréstimo a uma pessoa. Porém, sabemos que o banco XYZ não pode emprestar para qualquer um, não é todo mundo que vai pagar. 
     O banco faz então uma estimativa da probabilidade de que o cliente vá pagar o empréstimo, e para isso ele usa o seguinte diagrama:
 

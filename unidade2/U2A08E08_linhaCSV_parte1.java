@@ -24,7 +24,7 @@
 //  Solução U2A08E08:
 
 import java.util.Scanner;
-public class REVER_U2A08E08_linhaCSV {
+public class U2A08E08_linhaCSV_parte1 {
     public static void main(String[] args){
         Scanner inp = new Scanner(System.in);
         

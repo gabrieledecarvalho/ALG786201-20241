@@ -1,4 +1,4 @@
-/* Q1:
+package U2Avaliação;/* Q1:
     Em linhas gerais, a referência bibliográfica conforme as normas da ABNT – Associação Brasileira de Normas Técnicas – 
     é a indicação de autores, título, edição, local, editora e data de qualquer citação feita em um texto.
 

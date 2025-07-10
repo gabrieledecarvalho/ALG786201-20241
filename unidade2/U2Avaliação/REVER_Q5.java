@@ -1,4 +1,4 @@
-/*  Q5:
+package U2Avaliação;/*  Q5:
     Escreva um programa que verifica a validade de um cronômetro lido do teclado. A validade de um cronômetro significa que ele está no seguinte formato:
         MM:SS.CC
     ... sendo que MM são os minutos, SS são os segundos, e CC são os centésimo de segundo, e todos devem ser formados por dígitos numéricos. Com exceção de CC, todos podem ter um ou dois dígitos. 
