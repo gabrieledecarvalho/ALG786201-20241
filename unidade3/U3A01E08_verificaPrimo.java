@@ -28,5 +28,24 @@ public class U3A01E08_verificaPrimo {
 
         System.out.printf("PRIMO", n);
 
+        //utilizando a estrutura for, não vai rodar enquanto o de cima não estiver em comentário:
+        System.out.printf("\nFor\n");
+        if(n==2){
+            System.out.printf("PRIMO");
+            return;
+        }else if(n%2==0){
+            System.out.printf("COMPOSTO");
+            return;
+        }else {
+            var lim = Math.sqrt(n);
+            for (int i = 3; i <= lim; i += 2) {
+                if (n % i == 0) {
+                    System.out.printf("COMPOSTO");
+                    return;
+                }
+            }
+        }
+        System.out.printf("PRIMO");
+
     }
 }

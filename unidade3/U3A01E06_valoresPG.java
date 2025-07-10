@@ -19,5 +19,13 @@ public class U3A01E06_valoresPG {
             i++;
             System.out.printf("%.2f ", x);
         }
+
+        // utilizando estrutura for:
+        double x = xOriginal;
+        System.out.printf("\nFor: \n");
+        for(int i=1;i<=N;i++){
+            x=x*q;
+            System.out.printf("%.2f ", x);
+        }
     }
 }

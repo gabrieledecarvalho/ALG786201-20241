@@ -14,5 +14,11 @@ public class U3A01E02_mostraPares {
             System.out.printf("%d ", i);
             i += 2;
         }
+
+        // utilizando estrutura for
+        System.out.printf("\nFor: \n");
+        for(i=0;i<=n;i+=2){
+            System.out.printf("%d ",i);
+        }
     }
 }

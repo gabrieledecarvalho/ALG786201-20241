@@ -27,5 +27,17 @@ public class U3A01E09_calculaMDC {
 
         System.out.printf("O máximo divisor comum entre %d e %d é %d.\n",n1,n2,a);
 
+        // utilizando a estrutura for:
+        System.out.printf("\nFor\n");
+        int resto = 0, a = n1, int b = n2;
+        if(b==0){
+            System.out.printf("O máximo divisor comum entre %d e %d é %d.\n",n1,n2,a);
+            return; //para o programa
+        }
+        for(b=n2; b!=0;b=resto){ //só preciso do b!=0 para o algorítimo funcionar, nao preciso incrementar nem adicionar condição inicial
+            resto = a%b;
+            a=b;
+        }
+        System.out.printf("O máximo divisor comum entre %d e %d é %d.\n",n1,n2,a);
     }
 }

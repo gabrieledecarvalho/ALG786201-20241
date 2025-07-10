@@ -52,6 +52,24 @@ public class U3A01E03_fizzBuzz {
         //     }
         //     x++
         // }
+
+        // utilizando estrutura for:
+        System.out.printf("\nFor: \n");
+
+        for(int i=1;i<=n;i++){
+            //utilizando os booleanos para evitar o cálculo toda vez
+            boolean div3 = i%3 == 0;
+            boolean div5 = i%3 == 0;
+            if(div3 && div5){
+                System.out.print("FizzBuzz ");
+            }else if(div3){
+                System.out.print("Fizz ");
+            }else if(div5){
+                System.out.print("Buzz ");
+            }else{
+                System.out.printf("%d ", i);
+            }
+        }
     }
 }
 }

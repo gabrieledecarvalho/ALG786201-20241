@@ -17,5 +17,18 @@ public class U3A01E07_fibonacci {
             f2 = f;
             i++;
         }
+
+        // utilizando estrutura for:
+        System.out.printf("\nFor: \n");
+        f1 = 0;
+        f2 = 1;
+        f = 0;
+        System.out.printf("%d %d ",f1, f2);
+        for(int i=0;i<N-2;i++){
+            f = f1 + f2;
+            System.out.printf("%d ", f);
+            f1 = f2;
+            f2 = f;
+        }
     }
 }

@@ -29,5 +29,13 @@ public class U3A01E05_valoresPA {
             //mostrando na tela o valor atual de x, que foi incrementado com o valor do x anterior + a razão
             System.out.printf("%.2f ", x);
         }
+
+        // utilizando estrutura For:
+        double x = x1;
+        System.out.printf("\nFor: \n");
+        for(int i=1;i<=N;i++){
+            x+=r;
+            System.out.printf("%.2f ", x);
+        }
     }
 }

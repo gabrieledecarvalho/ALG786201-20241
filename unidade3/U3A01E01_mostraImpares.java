@@ -20,5 +20,11 @@ public class U3A01E01_mostraImpares {
             System.out.printf("%d ", i);
             i += 2;
         }
+
+        // utilizando estrutura for
+        System.out.printf("\nFor: \n");
+        for(int i=1;i<=n;i+=2){
+            System.out.printf("%d ", i);
+        }
     }
 }
