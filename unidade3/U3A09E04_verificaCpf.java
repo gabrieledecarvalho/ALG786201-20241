@@ -36,7 +36,7 @@ DICA 2: você pode garantir que, independente de como for digitado, o CPF tenha 
 //----------------------------------------------------------------------
 import java.util.Scanner;
 
-public class Teste{
+public class U3A09E04_verificaCpf {
 
     // opção 1, método para retornar os dígitos em forma de vetor, meio feio:
     static int [] calcula_digito_cpf(int[] cpf){

@@ -52,7 +52,7 @@ static void ordena(int[] numeros) {
 
 import java.util.Scanner;
 
-public class Teste{
+public class U3A09E06_ordenaNumeros {
 
     static int[] converte_linha(String linha, String delimitador) {
         String[] v = linha.split(delimitador);
